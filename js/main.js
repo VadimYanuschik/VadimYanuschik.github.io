@@ -7,8 +7,9 @@ function checkOffset() {
         $('.burger-menu').css('bottom', (0 + (windowHeight - footer)) + 'px');
     }
 }
-
 $(document).scroll(checkOffset);
+
+$('.news-item p').matchHeight();
 
 
 // BUGGER MENU ---- START
